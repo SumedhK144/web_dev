@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="#f0f2f5">
+    <center>
+        <table bgcolor="white" cellpadding="20" width="600" style="border-radius: 10px; margin-top: 20px;">
+            <tr>
+                <td>
+                    <h2 align="center"><font color="#1a73e8">Registration Form</font></h2>
+                    <form action="success.html" method="get">
+                        <table width="100%" cellpadding="8">
+                            <tr>
+                                <td><label for="name"><b>Full Name</b><font color="red">*</font></label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="name" name="name" size="50" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="email"><b>Email Address</b><font color="red">*</font></label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="email" id="email" name="email" size="50" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="phone"><b>Phone Number</b><font color="red">*</font></label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number" size="50" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="college"><b>College Name</b><font color="red">*</font></label></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select id="college" name="college" required>
+                                        <option value="">Select College</option>
+                                        <option value="DKTE">DKTE</option>
+                                        <option value="KIT">KIT</option>
+                                        <option value="Bharti Vidyapith">Bharti Vidyapith</option>
+                                        <option value="Shivaji University(TECH)">Shivaji University(TECH)</option>
+                                        <option value="RIT">RIT</option>
+                                        <option value="DYP(BAWDA)">DYP(BAWDA)</option>
+                                        <option value="Ashokrao Mane">Ashokrao Mane</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="department"><b>Department</b><font color="red">*</font></label></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select id="department" name="department" required>
+                                        <option value="">Select Department</option>
+                                        <option value="cse">Computer Science Engineering</option>
+                                        <option value="ece">Electronics & Communication</option>
+                                        <option value="eee">Electrical & Electronics</option>
+                                        <option value="mech">Mechanical Engineering</option>
+                                        <option value="civil">Civil Engineering</option>
+                                        <option value="it">Information Technology</option>
+                                        <option value="chemical">Chemical Engineering</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Gender</b><font color="red">*</font></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="gender" value="male" required> Male &nbsp;&nbsp;
+                                    <input type="radio" name="gender" value="female"> Female &nbsp;&nbsp;
+                                    <input type="radio" name="gender" value="other"> Other
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="qualification"><b>Highest Qualification</b><font color="red">*</font></label></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select id="qualification" name="qualification" required>
+                                        <option value="">Select Qualification</option>
+                                        <option value="high_school">High School</option>
+                                        <option value="bachelors">Bachelor's Degree</option>
+                                        <option value="masters">Master's Degree</option>
+                                        <option value="phd">Ph.D.</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Programming Skills</b><font color="red">*</font></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="skills" value="html"> HTML/CSS &nbsp;&nbsp;
+                                    <input type="checkbox" name="skills" value="javascript"> JavaScript &nbsp;&nbsp;
+                                    <input type="checkbox" name="skills" value="python"> Python &nbsp;&nbsp;
+                                    <input type="checkbox" name="skills" value="java"> Java &nbsp;&nbsp;
+                                    <input type="checkbox" name="skills" value="cpp"> C++ &nbsp;&nbsp;
+                                    <input type="checkbox" name="skills" value="php"> PHP
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="center">
+                                    <input type="submit" value="Submit" style="background-color: #1a73e8; color: white; padding: 12px 24px; border: none; border-radius: 6px; cursor: pointer; width: 100%; font-size: 16px; margin-top: 20px;">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
