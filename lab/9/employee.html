@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        form {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Employee Registration Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name">
+
+        <label>Age:</label>
+        <input type="number" name="age">
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male &nbsp;
+        <input type="radio" name="gender" value="female"> Female <br><br>
+
+        <label>Department:</label>
+        <select name="department">
+            <option>HR</option>
+            <option>Development</option>
+            <option>Marketing</option>
+        </select>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skill" value="html"> HTML<br>
+        <input type="checkbox" name="skill" value="css"> CSS<br>
+        <input type="checkbox" name="skill" value="js"> JavaScript<br><br>
+
+        <label>Resume:</label>
+        <input type="file" name="resume"><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>

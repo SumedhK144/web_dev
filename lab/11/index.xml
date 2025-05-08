@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <name>Sumedh Kamble</name>
+    <rollno>123</rollno>
+    <department>Computer Science</department>
+    <email>sumedh@example.com</email>
+</student>
